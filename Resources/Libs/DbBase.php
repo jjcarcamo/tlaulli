@@ -1,7 +1,10 @@
 <?php
-include_once '/Resources/Components/Config.php';
-
   class DbBase extends mysqli {
+    private $dbUser = "<User>";
+    private $dbPass = "<Password>";
+    private $dbHost = "<DBHost>";
+    private $dbName = "<DBName>";
+
     // The clone and wakeup methods prevents external instantiation of copies of the Singleton class,
     // thus eliminating the possibility of duplicate objects.
     public function __clone() {
@@ -13,7 +16,7 @@ include_once '/Resources/Components/Config.php';
     }
     
     public function __construct() {
-      parent::__construct(Config::dbHost, Config::dbUser, Config::dbPass, Config::dbName);
+      parent::__construct($this->dbHost, $this->dbUser, $this->dbPass, $this->dbName);
       
       if (mysqli_connect_error()) {
         exit('Connect Error (' . mysqli_connect_errno() . ') '
