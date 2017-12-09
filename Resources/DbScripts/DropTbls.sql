@@ -1,0 +1,9 @@
+-- Inventory subsystem
+drop table item_sug_ws_price_aff;
+drop table item_img_aff;
+drop table img;
+drop table sug_ws_price;
+drop table always_avail;
+drop table item_item_aff;
+drop table item;
+drop table special_discounts;

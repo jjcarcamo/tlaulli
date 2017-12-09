@@ -1,0 +1,7 @@
+Precondition: Some items.
+Postcondition: The discounted cost after applying the buy 6 get 1 rounded waist free and wholesale discounting.
+1. If the order qualifies for the special discount Then
+1.1. Apply the special discount.
+2. Else
+2.1. Determine why
+2. Apply the wholesale discount.

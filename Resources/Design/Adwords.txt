@@ -1,0 +1,7 @@
+Headline = 25 chars
+Two description lines = 35 chars each
+
+High Quality Aprons
+www.tlaulli.com/apronStyles
+Industrial strength. Low prices.
+Wholesale and retail. Buy online.

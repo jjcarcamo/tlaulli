@@ -1,0 +1,17 @@
+/* 
+    Document   : dialog
+    Created on : Jun 15, 2012, 11:30:37 PM
+    Author     : jcarcamo
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+#dialog li {
+  margin-left: 20px;
+}
+

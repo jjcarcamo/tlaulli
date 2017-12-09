@@ -1,0 +1,5 @@
+1. For each item Do
+1.1. For each other item Do
+1.1.1. If the ws_pricing of item 1 is equal to item 2 Then
+1.1.1.1. Add the items of item 2 to those of item 1
+1.1.1.2. Delete item 2

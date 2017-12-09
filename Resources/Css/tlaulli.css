@@ -1,0 +1,398 @@
+/* 
+    Document   : tlaulli
+    Created on : Jun 3, 2012, 10:04:13 AM
+    Author     : jcarcamo
+    Description:
+        Contains styles that apply to pages, not components.
+*/
+
+/*
+ * body
+ */
+body {
+  background-color: #eeedff;
+}
+/*
+ * end body
+ */
+ 
+.label {
+    float: left;
+    width: 5em;
+}
+
+.qty {
+  width: 4em;
+}
+
+/* 
+ * main 
+ */
+#main {
+  width: 1300px;
+  min-height: 100%;
+  margin: 0 auto;
+  background-color: #ffffff;
+}
+
+#main a {
+  text-decoration: none;
+  color: black;
+}
+
+#main a.styled_link:hover {
+  text-decoration: underline;
+}
+/* 
+ * end main 
+ */
+
+/* 
+ * header
+ */
+#header {
+  position: relative;
+}
+
+#header > span { /* Shopping cart & status position */
+  position: absolute;
+  right: 0;
+  margin-top: 20px;
+}
+
+#header div.main_financing {
+  position: absolute;
+  left: 400px;
+  top: 20px;
+}
+
+#header > span > span { /* Shopping cart status text */
+   position: absolute;
+   left: 60px;
+   top: 10px;
+}
+
+#header > span div#checkout_icon { /* Checkout position */
+  margin-left: 100px;
+  margin-top: -12px;
+}
+/*
+ * end header
+ */
+ 
+ #body {
+     min-height: 570px;
+ }
+ 
+ /*
+  * footer
+  */
+  #footer {
+  }
+ /*
+  * end footer
+  */
+
+/* 
+ * nav menu 
+ */
+ul#nav{
+  float: left;
+  margin-left: 10px;
+  width: 12%;
+  list-style: none;
+}
+
+ul#nav > li > div {
+  border: 3px solid #BBB;
+  background-color: #cccfff
+}
+
+ul#nav > li > div span {
+  display: block;
+  margin-left: 5px;
+}
+
+ul#nav ul { 
+  margin-left: 15px;
+  list-style: none;
+}
+
+ul#nav li a {
+  display: block;
+}
+
+ul#nav li a:hover {
+  background-color: beige;
+}
+/* 
+ * end Nav menu 
+ */
+
+/*
+ * content
+ */
+#content {
+  float: left;
+  width: 87%;
+}
+
+#content .button {
+  margin-top: 5px;
+  border: 1px solid #6c9ffd;
+  background-color: #cccfff;
+  padding: 2px;
+  font-weight: bold;
+  -moz-border-radius: 9px;
+  -webkit-border-radius: 9px;
+  border-radius: 9px;
+  color: #363434;
+  cursor: pointer;
+  font-size: 1.2em;
+}
+
+#content .single_item_container {
+   float: left;
+   margin-left: 25px;
+   margin-top: 20px;
+   position: relative;
+   border: 3px solid #eeeeee;
+   padding: 10px;
+}
+
+#content .single_item_container div.show_details,
+#content .single_item_container div.view_more {
+   display: none;
+   padding: 5px 10px;
+   position: absolute;
+   left: 25%;
+   top: 35%;
+   cursor: pointer;
+   background: rgb(226,226,226); /* Old browsers */
+   background: -moz-linear-gradient(top,  rgba(226,226,226,1) 0%, rgba(219,219,219,1) 50%, rgba(209,209,209,1) 51%, rgba(254,254,254,1) 100%); /* FF3.6+ */
+   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(226,226,226,1)), color-stop(50%,rgba(219,219,219,1)), color-stop(51%,rgba(209,209,209,1)), color-stop(100%,rgba(254,254,254,1))); /* Chrome,Safari4+ */
+   background: -webkit-linear-gradient(top,  rgba(226,226,226,1) 0%,rgba(219,219,219,1) 50%,rgba(209,209,209,1) 51%,rgba(254,254,254,1) 100%); /* Chrome10+,Safari5.1+ */
+   background: -o-linear-gradient(top,  rgba(226,226,226,1) 0%,rgba(219,219,219,1) 50%,rgba(209,209,209,1) 51%,rgba(254,254,254,1) 100%); /* Opera 11.10+ */
+   background: -ms-linear-gradient(top,  rgba(226,226,226,1) 0%,rgba(219,219,219,1) 50%,rgba(209,209,209,1) 51%,rgba(254,254,254,1) 100%); /* IE10+ */
+   background: linear-gradient(to bottom,  rgba(226,226,226,1) 0%,rgba(219,219,219,1) 50%,rgba(209,209,209,1) 51%,rgba(254,254,254,1) 100%); /* W3C */
+   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2e2e2', endColorstr='#fefefe',GradientType=0 ); /* IE6-9 */
+}
+
+#content .single_item_container div.item_price{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#content .single_item_container .has_details {
+  cursor: pointer;
+  margin-left: 22px;
+}
+
+#content .single_item_container .low_price_label {
+    font-size: 1.2em;
+    color: red;
+}
+
+#content .page_title {
+  margin-top: 10px;
+  text-align: center;
+  width: 100%;
+  font-weight: bold;
+  font-size: 2em;
+}
+
+#content .page_title img {
+    float: right;
+}
+
+#content .page_body > div {
+  padding-left: 10px;
+}
+
+#content #home .page_body {
+  width: 65%;
+  margin: 0 auto;
+}
+
+#content table#summary {
+  margin: 0 auto;
+  margin-top: 2%;
+  width: 90%;
+}
+
+#content table#summary_calc {
+    float: right;
+    margin-right: 7%;
+    width: 30%;
+}
+
+#content table#message{
+  float:left;
+  margin-top: 5%;
+  width: 60%;
+  font-weight: bold;
+}
+
+#content table#message #congrats {
+  font-size: 1.2em;
+  color: red;
+}
+
+#content table#summary th {
+  background-color: #CCCFFF;
+  padding-left: 10px;
+}
+
+#content table#summary td {
+  text-align: center;
+}
+
+#content table#summary_calc td.calc_heading {
+  text-align: left;
+  font-weight: bold;
+}
+
+#content table#summary_calc td.calc_heading.savings {
+    color: red;
+}
+
+#content table#summary_calc td.calc_data {
+  text-align: right;
+}
+
+#content table#summary td.data{
+    vertical-align: middle;
+}
+
+#content table#summary tr[id]:hover {
+  background-color: #FFFFCC;
+}
+
+#content #contact_us .customer_service {
+  margin: 0 auto;
+  width: 350px;
+  height: 120px;
+  padding-left: 150px;
+  background: url('../Imgs/ContactUsRep.jpg') no-repeat left center;
+}
+
+#content #contact_us .customer_service div {
+  line-height: 1em;
+  margin-bottom: 20px;
+}
+
+#content #contact_us .customer_service div span {
+  font-weight: bold;
+}
+
+/* fieldset styling */
+#content #contact_us fieldset {
+	padding: 1em;
+	border : 1px solid #ccc;
+}
+
+/* legend styling */
+#content #contact_us legend {
+	font-weight: bold;
+}
+
+#content #contact_us form div {
+	padding: 0.4em 0;
+}
+
+
+/* style for  labels */
+#content #contact_us label {
+	display: block;
+}
+
+/* style for required labels */
+#content #contact_us label .required {
+	font-size: 0.75em;
+	color:#760000;
+}
+
+#content #contact_us input {
+  width: 20em;
+}
+
+#content #contact_us textarea {
+	width: 100%;
+	height: 10em;
+}
+
+#content #contact_us input.radio, input.submit {
+  width: auto;
+}
+
+#content #contact_us #remember-me .radio {
+	margin-right: 1em;
+}
+
+/* style form elements on focus */
+#content #contact_us input[type="text"]:focus, textarea:focus {
+	background: #ffc;
+}
+/* 
+ * end content 
+ */
+
+.highlight_menu_item {
+  background-color: #EEEDFF;
+}
+
+/*
+ * dialog
+ */
+#dialog .double_item_container {
+    float: left;
+    width: 50%;
+}
+
+#dialog .double_item_container .image_container {
+    border: 1px solid #eeeeee;
+    width: 95%;
+}
+
+#dialog .description_container{
+    float: left;
+    margin: 0 auto;
+    width: 45%;
+}
+
+#dialog .feature_list{
+    margin-left: 15px;
+}
+
+#dialog .pricing {
+    border: 2px #eeeeee solid;
+    margin-top: 20px;
+    width: 100%;
+}
+
+#dialog .pricing thead {
+    border-bottom: 2px #6c9ffd solid;
+    background-color: #CCCFFF;
+}
+
+#dialog .pricing tbody {
+    text-align: center;
+}
+
+/*
+ * end dialog 
+ */
+ 
+ /*
+  * Checkout
+  */
+  #checkout .checkout_financing {
+    position: relative;
+    left: 60px;
+    top: 10px;
+  }
+  
+  /*
+   * end checkout
+   */

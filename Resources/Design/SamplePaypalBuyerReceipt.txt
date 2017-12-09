@@ -1,0 +1,84 @@
+ 	
+         	Dec 26, 2012 21:18:20 PST | Transaction ID: 55F66096L71140915
+
+Hello Sammy Sender,
+
+You sent a payment of $11.69 USD to Michael Merchant's Test Store
+ (Rec_1352397082_biz@gmail.com) 
+
+
+It may take a few moments for this transaction to appear in your account.
+
+----------------------------------------------------------------
+
+Merchant:
+Michael Merchant's Test Store
+Rec_1352397082_biz@gmail.com
+
+
+Confirmed shipping address
+Sammy Sender
+1 Main St
+San Jose, CA 95131
+United States
+
+Instructions to merchant:
+You haven't entered any instructions.
+
+Shipping details:
+The seller hasn’t provided any shipping details yet.
+
+
+-----------------------------------
+Purchase Details
+-----------------------------------
+
+Description:Double-sided Apron - SP 
+              (18.50 in X 25.00 in) Solid Black w/ Straight Red Solid Trim (ID: 175), Item #:175
+Unit price:$8.00 USD
+Qty:1
+Amount:$8.00 USD
+
+
+Subtotal: $8.00 USD
+Shipping and handling: $2.99 USD
+Tax: $0.70 USD
+
+
+
+
+
+
+Total: $11.69 USD
+
+Payment: $11.69 USD
+Payment sent to: Rec_1352397082_biz@gmail.com
+
+
+
+----------------------------------------------------------------
+
+Issues with this transaction?
+You have 45 days from the date of the transaction to open a dispute in the Resolution Center.
+
+Questions? Go to the Help Center at: www.paypal.com/help.
+
+Get verified - Pay from your bank account and you're 100% protected against unauthorized payments sent from your PayPal account. Log in and click the Unverified link below your name.
+
+
+RIGHT TO REFUND
+You, the customer, are entitled to a refund of the money to be transmitted as a result of this agreement if PayPal does not forward the money received from you within 10 days of the date of its receipt, or does not give instructions committing an equivalent amount of money to the person designated by you within 10 days of the date of the receipt of the funds from you unless otherwise instructed by you.
+
+If your instructions as to when the money shall be forwarded or transmitted are not complied with, and the money has not yet been forwarded or transmitted, you have a right to a refund of your money.
+
+If you want a refund, you must mail or deliver your written request to PayPal at P.O. Box 45950, Omaha, NE 68145-0950. If you do not receive your refund, you may be entitled to your money back plus a penalty of up to $1,000.00 USD and attorney's fees pursuant to Section 2102 of the California Financial Code.
+
+PAYPAL ACCOUNT HOLDERS
+If you have a PayPal account, you have a preferred alternative to the Right to Refund process. You may be covered if you find a payment error. You also may be covered if you did not receive your item or the item is significantly different from the seller's description. To obtain help, log into your PayPal account and click Resolution Center at the top center of Account Overview.
+
+Please do not reply to this email. This mailbox is not monitored and you will not receive a response. For assistance, log in to your PayPal account and click Help in the top right corner of any PayPal page.
+
+To receive email notifications in plain text instead of HTML, log in to your PayPal account and go to your Profile to update your settings.
+
+PPID PP120 
+		

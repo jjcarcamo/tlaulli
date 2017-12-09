@@ -1,0 +1,11 @@
+1. For each item Do
+1.1. If the item is of the type and style desired Then
+1.1.1. If count >= to item quantity Then
+1.1.1.1. count -= item quantity
+1.1.1.2. Delete the item from items //The item has zero quantity. No need to be in items.
+1.1.2. Else
+1.1.2.1. item quantity -= count
+1.1.2.2. count = 0
+1.1.2. If count == 0 Then
+1.1.2.1. Return the modified items
+2. Return null // Items doesn't have the desired count.
